@@ -1,0 +1,281 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		838E4CE11590462D009DA978 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 838E4CE01590462D009DA978 /* UIKit.framework */; };
+		838E4CE31590462D009DA978 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 838E4CE21590462D009DA978 /* Foundation.framework */; };
+		838E4CE51590462D009DA978 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 838E4CE41590462D009DA978 /* CoreGraphics.framework */; };
+		838E4CEB1590462D009DA978 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 838E4CE91590462D009DA978 /* InfoPlist.strings */; };
+		838E4CED1590462D009DA978 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 838E4CEC1590462D009DA978 /* main.m */; };
+		838E4CF11590462D009DA978 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 838E4CF01590462D009DA978 /* AppDelegate.m */; };
+		838E4CF41590462D009DA978 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 838E4CF31590462D009DA978 /* ViewController.m */; };
+		838E4CF71590462D009DA978 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 838E4CF51590462D009DA978 /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		838E4CDC1590462D009DA978 /* annotatio-controller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "annotatio-controller.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		838E4CE01590462D009DA978 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		838E4CE21590462D009DA978 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		838E4CE41590462D009DA978 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		838E4CE81590462D009DA978 /* annotatio-controller-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "annotatio-controller-Info.plist"; sourceTree = "<group>"; };
+		838E4CEA1590462D009DA978 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		838E4CEC1590462D009DA978 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		838E4CEE1590462D009DA978 /* annotatio-controller-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "annotatio-controller-Prefix.pch"; sourceTree = "<group>"; };
+		838E4CEF1590462D009DA978 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		838E4CF01590462D009DA978 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		838E4CF21590462D009DA978 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		838E4CF31590462D009DA978 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		838E4CF61590462D009DA978 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		838E4CD91590462D009DA978 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				838E4CE11590462D009DA978 /* UIKit.framework in Frameworks */,
+				838E4CE31590462D009DA978 /* Foundation.framework in Frameworks */,
+				838E4CE51590462D009DA978 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		838E4CD11590462C009DA978 = {
+			isa = PBXGroup;
+			children = (
+				838E4CE61590462D009DA978 /* annotatio-controller */,
+				838E4CDF1590462D009DA978 /* Frameworks */,
+				838E4CDD1590462D009DA978 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		838E4CDD1590462D009DA978 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				838E4CDC1590462D009DA978 /* annotatio-controller.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		838E4CDF1590462D009DA978 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				838E4CE01590462D009DA978 /* UIKit.framework */,
+				838E4CE21590462D009DA978 /* Foundation.framework */,
+				838E4CE41590462D009DA978 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		838E4CE61590462D009DA978 /* annotatio-controller */ = {
+			isa = PBXGroup;
+			children = (
+				838E4CEF1590462D009DA978 /* AppDelegate.h */,
+				838E4CF01590462D009DA978 /* AppDelegate.m */,
+				838E4CF21590462D009DA978 /* ViewController.h */,
+				838E4CF31590462D009DA978 /* ViewController.m */,
+				838E4CF51590462D009DA978 /* ViewController.xib */,
+				838E4CE71590462D009DA978 /* Supporting Files */,
+			);
+			path = "annotatio-controller";
+			sourceTree = "<group>";
+		};
+		838E4CE71590462D009DA978 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				838E4CE81590462D009DA978 /* annotatio-controller-Info.plist */,
+				838E4CE91590462D009DA978 /* InfoPlist.strings */,
+				838E4CEC1590462D009DA978 /* main.m */,
+				838E4CEE1590462D009DA978 /* annotatio-controller-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		838E4CDB1590462D009DA978 /* annotatio-controller */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 838E4CFA1590462D009DA978 /* Build configuration list for PBXNativeTarget "annotatio-controller" */;
+			buildPhases = (
+				838E4CD81590462D009DA978 /* Sources */,
+				838E4CD91590462D009DA978 /* Frameworks */,
+				838E4CDA1590462D009DA978 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "annotatio-controller";
+			productName = "annotatio-controller";
+			productReference = 838E4CDC1590462D009DA978 /* annotatio-controller.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		838E4CD31590462C009DA978 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 838E4CD61590462C009DA978 /* Build configuration list for PBXProject "annotatio-controller" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 838E4CD11590462C009DA978;
+			productRefGroup = 838E4CDD1590462D009DA978 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				838E4CDB1590462D009DA978 /* annotatio-controller */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		838E4CDA1590462D009DA978 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				838E4CEB1590462D009DA978 /* InfoPlist.strings in Resources */,
+				838E4CF71590462D009DA978 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		838E4CD81590462D009DA978 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				838E4CED1590462D009DA978 /* main.m in Sources */,
+				838E4CF11590462D009DA978 /* AppDelegate.m in Sources */,
+				838E4CF41590462D009DA978 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		838E4CE91590462D009DA978 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				838E4CEA1590462D009DA978 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		838E4CF51590462D009DA978 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				838E4CF61590462D009DA978 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		838E4CF81590462D009DA978 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		838E4CF91590462D009DA978 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		838E4CFB1590462D009DA978 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "annotatio-controller/annotatio-controller-Prefix.pch";
+				INFOPLIST_FILE = "annotatio-controller/annotatio-controller-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		838E4CFC1590462D009DA978 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "annotatio-controller/annotatio-controller-Prefix.pch";
+				INFOPLIST_FILE = "annotatio-controller/annotatio-controller-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		838E4CD61590462C009DA978 /* Build configuration list for PBXProject "annotatio-controller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				838E4CF81590462D009DA978 /* Debug */,
+				838E4CF91590462D009DA978 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		838E4CFA1590462D009DA978 /* Build configuration list for PBXNativeTarget "annotatio-controller" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				838E4CFB1590462D009DA978 /* Debug */,
+				838E4CFC1590462D009DA978 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 838E4CD31590462C009DA978 /* Project object */;
+}
